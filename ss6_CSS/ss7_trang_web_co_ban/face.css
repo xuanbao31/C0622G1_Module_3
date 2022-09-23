@@ -1,18 +1,22 @@
-input{
-    border-radius: 10px;
+input {
+    border-radius: 20px;
 }
-.row{
-    /*cho phép thẻ div (col) nổi lên trên*/
-    display: flex;
-    /*Các thẻ div (col)  không đủ chỗ chứa trên 1 hàng thì rớt xuống*/
-    flex-wrap: wrap;
-}
-i{
+
+
+
+i {
     padding: 20px;
-    font-size: 25px;
+    font-size: 28px;
 }
-p{
+
+p {
     font-family: Arial;
     color: lightslategrey;
     padding-left: 15px;
+}
+span{
+    font-family: Arial Verdana
+}
+.row:hover{
+    background-color: cadetblue;
 }

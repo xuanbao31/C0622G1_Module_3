@@ -1,0 +1,17 @@
+h2{
+    color: darkcyan;
+    padding-left: 20px;
+    background-color:darkgray;
+    font-size: 35px;
+}
+.aa{
+text-align: center;
+
+    font-size: 20px;
+
+}.row  {
+     /*cho phép thẻ div (col) nổi lên trên*/
+     display: flex;
+     /*Các thẻ div (col)  không đủ chỗ chứa trên 1 hàng thì rớt xuống*/
+     flex-wrap: wrap;
+ }
